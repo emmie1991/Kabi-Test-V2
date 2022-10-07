@@ -1,0 +1,22 @@
+/* http://files.b.kabi.si/kabi/test/slice/ 
+u: kabiinfo
+p: novastran2022 */
+
+/* Navodila:
+	• stran s seznamom izdelkov naj vsebuje 5 izdelkov
+	• klik na gumb več pri izdelkih odpre podstran s prikazom enega izdelka
+	• stran je lahko naveden HTML, lahko se uporabi PHP in/ali JS, različni JS frameworki (react, vuejs ...) ... po želji
+	• uporabijo se lahko različni frameworki in knjižnice (PHP, CSS, JS ...)
+	• lahko se uporabi tudi kakšen template sistem
+	• stran naj bo responsive, prilagojen prikaz na mobitelih <500px (na tablicah ni treba)
+*/
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Custom properties */
+
