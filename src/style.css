@@ -64,6 +64,17 @@ body {
 	background-color: var(--clr-bg);
 }
 
+section {
+	padding-top: 30px;
+}
+
+img { 
+  display: block;
+  max-width: 100%;
+}
+
+/* Buttons */
+
 /* Typography */
 
 h1, h2, h3 {
@@ -91,4 +102,20 @@ p {
 	font-weight: var(--fs-p);
 	color: var(--clr-p);
 	line-height: var(--lh-p);
+}
+
+/* Header */
+
+header {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.logo {
+	max-width: 100%;
+}
+
+.logo img {
+	height: 60px;
 }
