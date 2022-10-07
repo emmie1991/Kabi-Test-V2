@@ -20,3 +20,75 @@ p: novastran2022 */
 
 /* Custom properties */
 
+:root {
+  --ff-primary: 'OpenSans', sans-serif;
+
+  --fw-reg: 400;
+  --fw-bold: 600;
+  --fw-extra: 800;
+
+  --fs-h1: 24px;
+  --fs-h2: 20px;
+  --fs-p: 13px;
+	--fs-nav: 16px;
+	--fs-extra: 16px;
+	--fs-nav-awesome: 18px;
+  --fs-button-awesome: 13px;
+
+	--lh-h1: 33px;
+	--lh-h2: 27px;
+	--lh-p: 18px;
+	--lh-nav: 22px;
+	--lh-nav-awesome: 18px;
+	--lh-button-awesome: 13px;
+	--lh-button: 18px;
+
+  --clr-h1: #262626;
+  --clr-h2: #686868;
+	--clr-p: #686868;
+  --clr-button: #5EA0E0;
+  --clr-nav: linear-gradient(180deg, #48C6EF 0%, #6F86D6  100%);
+	--clr-nav-awesome: rgba(255,255,255,0.24);
+  --clr-bg: #EEF3F5;
+  --clr-item: #FFF;
+
+	--bs-nav: 0 -3px 0px 0 rgba(171, 229, 255,1), 0 3px 6px 0 rgba(0, 0, 0, 0.12);
+
+  --radius: 5px;
+}
+
+/* General styles */
+
+body {
+	font-family: var(--ff-primary);
+	background-color: var(--clr-bg);
+}
+
+/* Typography */
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 { 
+	font-size: var(--fs-h1);
+	font-weight: var(--fw-bold);
+	color:var(--clr-h1);
+	line-height: var(--lh-h1);
+	text-transform: uppercase;
+}
+
+h2 { 
+	font-size: var(--fs-h2);
+	font-weight: var(--fs-h2);
+	color: var(--clr-h2);
+	line-height: var(--lh-h2);
+	text-transform: capitalize;
+}
+
+p { 
+	font-size: var(--fs-p);
+	font-weight: var(--fs-p);
+	color: var(--clr-p);
+	line-height: var(--lh-p);
+}
